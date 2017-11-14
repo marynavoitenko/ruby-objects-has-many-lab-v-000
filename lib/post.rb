@@ -6,7 +6,7 @@ class Post
   end
 
   def author_name
-    if self.author.name.present?
+    if self.author.present?
       self.author.name
     else
       nil
