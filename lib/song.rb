@@ -4,4 +4,12 @@ class Song
   def initialize(name)
     @name = name
   end
+
+  def artist_name
+    if self.artist
+      return self.artist
+    else 
+      return nil
+    end
+  end
 end
